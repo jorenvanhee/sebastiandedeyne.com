@@ -9,15 +9,16 @@
     "type": "project",
     "require": {
         "php": ">=7.1",
+        "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
         "league/commonmark": "^0.15.0",
+        "spatie/laravel-analytics": "^3.4",
         "spatie/laravel-collection-macros": "^3.0",
         "spatie/laravel-feed": "^2.0",
         "spatie/laravel-responsecache": "^4.0",
         "spatie/laravel-robots-middleware": "^1.0",
         "spatie/laravel-tail": "^2.0",
-        "spatie/yaml-front-matter": "^2.0.0",
-        "fideloper/proxy": "~3.3"
+        "spatie/yaml-front-matter": "^2.0.0"
     },
     "require-dev": {
         "graham-campbell/analyzer": "^1.1",

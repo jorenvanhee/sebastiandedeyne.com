@@ -13,6 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
+        Commands\StatsCommand::class,
         Commands\PostMakeCommand::class,
     ];
 
